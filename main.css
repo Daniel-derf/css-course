@@ -1,22 +1,28 @@
-body {
-    font-family: "Doto", sans-serif;
+body{
+    font-family: sans-serif;
 }
 
-#product-overview {
-    background: #ff1b68;
-}
-
-#product-overview h1 {
+li + li {
+    background: black;
     color: white;
-    font-family: "Anton", sans-serif;
 }
 
-/* h1 {
+/* ol li {
+    background: black;
     color: white;
-    font-family: "Anton", sans-serif;
 } */
 
-.section-title{
-    color: #2ddf5c;
-    /* font-family: inherit; */
+
+#assignment-instructions {
+    color: blue;
+    font-family: sans-serif;
+}
+
+code {
+    font-family: monospace;
+    color: red;
+}
+
+.second-li code {
+    color: green
 }
