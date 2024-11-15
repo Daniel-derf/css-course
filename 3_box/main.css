@@ -27,6 +27,7 @@ body {
   background: #2ddf5c;
   padding: 8px 16px;
   width: 100%;
+  vertical-align: middle;
 }
 
 .main-header__brand {
@@ -37,6 +38,7 @@ body {
 }
 
 .main-nav{
+  vertical-align: middle;
   display: inline-block;
   text-align: right;
   width: calc(100% - 100px);
@@ -46,9 +48,16 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+  color: #0e4f1f;
+  text-decoration: none;
 }
 
 .main-nav__item{
   display: inline-block;
+  margin: 0 16px;
+}
 
+.main-nav__item a {
+  text-decoration: none;
+  color: #0e4f1f;
 }
