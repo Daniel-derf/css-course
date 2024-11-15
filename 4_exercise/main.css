@@ -1,0 +1,19 @@
+.nice-box{
+  border: 5px solid red;
+  padding: 80px;
+  margin: 50px 250px;
+  display: inline-block;
+}
+
+ol + div {
+  margin-left: 0;
+  margin-right: 0;
+  height: 300px;
+  width: 50%;
+  /* visibility: hidden; */
+}
+
+div + div:hover {
+  background-color: green;
+
+}
