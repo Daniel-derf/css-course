@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .nice-box{
   border: 5px solid red;
   padding: 80px;
@@ -11,6 +15,10 @@ ol + div {
   height: 300px;
   width: 50%;
   /* visibility: hidden; */
+}
+
+html, body {
+  height: 100%;
 }
 
 div + div:hover {
